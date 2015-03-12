@@ -1,0 +1,13 @@
+﻿body 
+{
+background-image:url(/Images/Mockup.png);
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+#maincontent
+{
+    float:right;
+    width:75%;
+    height:300px;
+}

@@ -3,26 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ComicBook", "http://localhost:50912", "{9A292489-E6B3-4E5C-AA62-8F5A78FD327B}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ComicBookGame", "http://localhost:63202", "{EC7D04DE-969C-4F35-84F7-C0E9F244F874}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_50912"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Google Drive\Fernandez\Visual Studio\ComicBook\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50912\"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63202"
+		Debug.AspNetCompiler.PhysicalPath = "..\ComicBookGame\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63202\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_50912"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Google Drive\Fernandez\Visual Studio\ComicBook\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50912\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63202"
+		Release.AspNetCompiler.PhysicalPath = "..\ComicBookGame\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63202\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\..\..\..\Google Drive\Fernandez\Visual Studio\ComicBook\"
-		DefaultWebSiteLanguage = "Visual C#"
+		SlnRelativePath = "..\ComicBookGame\"
 	EndProjectSection
 EndProject
 Global
@@ -30,8 +29,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9A292489-E6B3-4E5C-AA62-8F5A78FD327B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A292489-E6B3-4E5C-AA62-8F5A78FD327B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7D04DE-969C-4F35-84F7-C0E9F244F874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7D04DE-969C-4F35-84F7-C0E9F244F874}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
