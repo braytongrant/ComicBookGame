@@ -1,13 +1,16 @@
 ﻿body 
 {
-background-image:url(/Images/Mockup.png);
+background-image:url('/Images/Mockup.png');
 background-repeat:no-repeat;
 background-size:cover;
+    height: 576px;
 }
 
 #maincontent
 {
-    float:right;
-    width:75%;
+    align-content:center;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:5%;
     height:300px;
 }
