@@ -4,14 +4,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Comic Book Home</title>
     <link rel="stylesheet" type="text/css" href="/CSS/MasterStyle.css"/>
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div id="banner">
     </div>
         <div id="maincontent">
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">

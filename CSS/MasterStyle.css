@@ -1,6 +1,6 @@
 ﻿body 
 {
-background-image:url('/Images/Mockup.png');
+background-image:url('/Images/mock_up.png');
 background-repeat:no-repeat;
 background-size:cover;
     height: 576px;
@@ -13,4 +13,16 @@ background-size:cover;
     margin-right:20%;
     margin-top:5%;
     height:300px;
+}
+
+#banner
+{
+    background-image:url('/Images/logo.png');
+    background-repeat:no-repeat;
+    background-size:initial;
+    position:fixed;
+    height: 88px;
+    top: 15px;
+    width: 1189px;
+    left: 14px;
 }
