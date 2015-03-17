@@ -4,6 +4,7 @@ background-image:url('/Images/mock_up.png');
 background-repeat:no-repeat;
 background-size:cover;
     height: 576px;
+    font-weight: 700;
 }
 
 #maincontent
