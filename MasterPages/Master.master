@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Comic Book Home</title>
+    <title>Comic Book</title>
     <link rel="stylesheet" type="text/css" href="/CSS/MasterStyle.css"/>
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -19,16 +19,16 @@
         <br />
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnHome" runat="server" Text="Home" />
+        <asp:Button ID="btnHome" runat="server" Text="Home" OnClick="btnHome_Click" />
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnAboutUs" runat="server" Text="About Us" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnGames" runat="server" Text="Games" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnShop" runat="server" Text="Shop" />
+        <asp:Button ID="btnAboutUs" runat="server" Text="About Us" OnClick="btnAboutUs_Click" style="height: 26px" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnRedeem" runat="server" Text="Redeem" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btnGames" runat="server" Text="Games" OnClick="btnGames_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btnShop" runat="server" Text="Shop" OnClick="btnShop_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btnRedeem" runat="server" Text="Redeem" OnClick="btnRedeem_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;
         <div id="maincontent">
             <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
