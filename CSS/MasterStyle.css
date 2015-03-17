@@ -20,8 +20,9 @@ background-size:cover;
     background-image:url('/Images/logo.png');
     background-repeat:no-repeat;
     background-size:initial;
-    position:fixed;
-    height: 88px;
+    background-position:top,center;
+    
+    height: 183px;
     top: 15px;
     width: 1189px;
     left: 14px;
