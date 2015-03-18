@@ -11,7 +11,11 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <span class="auto-style2">
-    <asp:Label ID="Label1" runat="server" Text="Pre-purchase Thorn today!"></asp:Label>
+    <asp:Label ID="Label1" runat="server" Text="Choose a game:"></asp:Label>
+    <br />
+    <asp:RadioButtonList ID="RadioButtonList2" runat="server">
+        <asp:ListItem>Comic Run</asp:ListItem>
+    </asp:RadioButtonList>
     <br />Select a platform!<asp:RadioButtonList ID="RadioButtonList1" runat="server">
         <asp:ListItem>PC</asp:ListItem>
         <asp:ListItem>Mac</asp:ListItem>
@@ -19,26 +23,41 @@
         <asp:ListItem>Xbox One</asp:ListItem>
         <asp:ListItem>Wii U</asp:ListItem>
         <asp:ListItem>Atari 2600</asp:ListItem>
-        <asp:ListItem>not linux</asp:ListItem>
+        <asp:ListItem>not Linux</asp:ListItem>
     </asp:RadioButtonList>
-    <br />Shipping address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
-    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+    <br />Shipping address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <br />
+    </span>
+    <asp:TextBox ID="TextBox1" runat="server" CssClass="purchasetb"></asp:TextBox>
     <span class="auto-style2">
-    <br />Billing address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
-    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+    <br />
+    <br />Billing address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+    </span>
+    <asp:TextBox ID="TextBox2" runat="server" CssClass="purchasetb"></asp:TextBox>
     <span class="auto-style2">
+    <br />
     <br />Email address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-    <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
-    <br />Credit card number&nbsp;&nbsp;&nbsp; </span>
-    <asp:TextBox ID="TextBox3" runat="server" ReadOnly="True"></asp:TextBox>
+    <br />
+    <asp:TextBox ID="TextBox6" runat="server" CssClass="purchasetb"></asp:TextBox>
+    <br />
+    <br />Credit card number&nbsp;&nbsp;&nbsp; <br />
+    </span>
+    <asp:TextBox ID="TextBox3" runat="server" ReadOnly="True" CssClass="tb"></asp:TextBox>
     <span class="auto-style2">
+    <br />
     <br />Experation date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:TextBox ID="TextBox7" runat="server" ReadOnly="True"></asp:TextBox>
-    <br />Name on card&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
-    <asp:TextBox ID="TextBox4" runat="server" ReadOnly="True"></asp:TextBox>
+    <br />
+    <asp:TextBox ID="TextBox7" runat="server" ReadOnly="True" CssClass="purchasetb"></asp:TextBox>
+    <br />
+    <br />Name on card&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
+    </span>
+    <asp:TextBox ID="TextBox4" runat="server" ReadOnly="True" CssClass="purchasetb"></asp:TextBox>
     <span class="auto-style2">
-    <br />CVC on card&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
-    <asp:TextBox ID="TextBox5" runat="server" ReadOnly="True" style="text-align: center"></asp:TextBox>
+    <br />
+    <br />CVC on card&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
+    </span>
+    <asp:TextBox ID="TextBox5" runat="server" ReadOnly="True" style="text-align: center" CssClass="purchasetb"></asp:TextBox>
+    <br />
     <br />
     <br />
     <asp:Button ID="Button1" runat="server" Text="Accept" />
