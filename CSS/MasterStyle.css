@@ -3,7 +3,7 @@
 background-image:url('/Images/mock_up.png');
 background-repeat:no-repeat;
 background-size:cover;
-    height: 576px;
+    height: 601px;
     font-weight: 700;
 }
 
@@ -26,6 +26,7 @@ background-size:cover;
     top: 15px;
     width: 1189px;
     left: 14px;
+<<<<<<< HEAD
 }
 
 .purchasetb
@@ -35,4 +36,7 @@ background-size:cover;
 
 .purchasetb2{
     left:25%;
+=======
+    
+>>>>>>> origin/master
 }

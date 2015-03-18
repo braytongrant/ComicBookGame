@@ -19,15 +19,15 @@
         <br />
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnHome" runat="server" Text="Home" OnClick="btnHome_Click" />
+        <asp:Button ID="btnHome" runat="server" Text="Home" OnClick="btnHome_Click" Height="26px" />
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnAboutUs" runat="server" Text="About Us" OnClick="btnAboutUs_Click" style="height: 26px" />
+        <asp:Button ID="btnAboutUs" runat="server" Text="About Us" OnClick="btnAboutUs_Click" style="height: 26px" Height="26px" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnGames" runat="server" Text="Games" OnClick="btnGames_Click" />
+        <asp:Button ID="btnGames" runat="server" Text="Games" OnClick="btnGames_Click" Height="26px" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnShop" runat="server" Text="Shop" OnClick="btnShop_Click" />
+        <asp:Button ID="btnShop" runat="server" Text="Shop" OnClick="btnShop_Click" Height="26px" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnRedeem" runat="server" Text="Redeem" OnClick="btnRedeem_Click" />
+        <asp:Button ID="btnRedeem" runat="server" Text="Redeem" OnClick="btnRedeem_Click" Height="26px" />
 &nbsp;&nbsp;&nbsp;&nbsp;
         <div id="maincontent">
             <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
