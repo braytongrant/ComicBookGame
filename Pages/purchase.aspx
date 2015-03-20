@@ -15,6 +15,8 @@
     <br />
     <asp:RadioButtonList ID="RadioButtonList2" runat="server">
         <asp:ListItem>Comic Run</asp:ListItem>
+        <asp:ListItem>Rayman</asp:ListItem>
+        <asp:ListItem>Call of Duty Advance d Witchcraft</asp:ListItem>
     </asp:RadioButtonList>
     <br />Select a platform!<asp:RadioButtonList ID="RadioButtonList1" runat="server">
         <asp:ListItem>PC</asp:ListItem>
