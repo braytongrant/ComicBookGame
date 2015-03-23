@@ -13,9 +13,9 @@
     <p style="text-align: center; margin-left: 40px">
         Congratz on gettin one of our unique prize codes.&nbsp; Your prize can range from a digital comic book to a free version of one of our great games.</p>
     <p style="text-align: center">
-        Enter you sixteen(16) digit code below to get you prize.</p>
+        Enter your sixteen(16) digit code below to get you prize.</p>
     <p style="text-align: left">
-        <asp:TextBox ID="TextBox1" runat="server" CssClass="redeemtbb" Width="200px"></asp:TextBox>
+        <asp:TextBox ID="TextBox1" runat="server" CssClass="redeemtbb" Width="200px" MaxLength="16"></asp:TextBox>
     </p>
     <p style="text-align: left">
         <asp:Button ID="Button1" runat="server" Text="Submit" CssClass="redeemtbb" Width="200px" />

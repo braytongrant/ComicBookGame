@@ -11,4 +11,10 @@ public partial class Pages_purchase : System.Web.UI.Page
     {
 
     }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        TextBox1.Text = "";
+        TextBox6.Text = "";
+        TextBox2.Text = "";
+    }
 }
