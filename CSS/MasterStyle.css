@@ -5,7 +5,6 @@ background-repeat:no-repeat;
 background-size:cover;
     height: 601px;
     font-weight: 700;
-    font-family:Comic Sans MS;
 }
 
 #maincontent
@@ -15,7 +14,6 @@ background-size:cover;
     margin-right:20%;
     margin-top:5%;
     height:300px;
-    font-family:Comic Sans MS;
 }
 
 #banner
@@ -28,19 +26,16 @@ background-size:cover;
     top: 15px;
     width: 1189px;
     left: 14px;
-    font-family:Comic Sans MS;
 
 }
 
 .purchasetb
 {
     left:25%;
-    font-family:Comic Sans MS;
 }
 
 .purchasetb{
     left:25%;
-    font-family:Comic Sans MS;
 
 }
 
@@ -49,7 +44,6 @@ background-size:cover;
     position:relative;
     left:50%;
     margin-left:-205.5px;
-    font-family:Comic Sans MS;
     
 
     
@@ -61,6 +55,5 @@ background-size:cover;
     left:50%;
     
     margin-left:-100px;
-    font-family:Comic Sans MS;
     
 }
