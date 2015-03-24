@@ -32,7 +32,7 @@
     <p>
         <img alt="" aria-multiline="True" aria-multiselectable="True" class="auto-style3" src="../Images/CODMW.png" /></p>
     <p>
-        Call of Witchcraft the number one seller and all time winner of C*C*C*'s award pile. Play a game like never before online with friends where you that test your snap reaction timeing.
+        Call of Duty Advanced Witchcraft the number one seller and all time winner of C*C*C*'s award pile. Play a game like never before online with friends where you that test your snap reaction timeing.
     </p>
     <p style="height: 451px; width: 713px">
         <img alt="Runner's Level" class="auto-style1" src="../Images/level_2.jpg" /><img alt="" class="auto-style4" src="../Images/level_1.jpg" /></p>
