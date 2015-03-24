@@ -8,20 +8,20 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ComicBookGame", "http://loc
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_58790"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Google Drive\ComicBookGame\"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\ComicBookGame\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58790\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_58790"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Google Drive\ComicBookGame\"
+		Release.AspNetCompiler.PhysicalPath = "..\..\ComicBookGame\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58790\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\..\..\..\Google Drive\ComicBookGame\"
+		SlnRelativePath = "..\..\ComicBookGame\"
 	EndProjectSection
 EndProject
 Global
