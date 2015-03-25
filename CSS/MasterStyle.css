@@ -29,6 +29,13 @@ background-size:cover;
 
 }
 
+.logo
+{
+    position:relative;
+    left:50%;
+    margin-left:-58px;
+}
+
 .purchasetb
 {
     left:25%;
@@ -44,10 +51,7 @@ background-size:cover;
     position:relative;
     left:50%;
     margin-left:-205.5px;
-    
-
-    
-
+  
 }
 
 .redeemtbb{
