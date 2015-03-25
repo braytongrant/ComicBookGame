@@ -11,4 +11,12 @@ public partial class Pages_Redeem : System.Web.UI.Page
     {
 
     }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        happydog.ImageUrl = "/Images/saddoge.png";
+        luckdog.Text = "Oh sad dog";
+        prizecode.Text = "The code you entered was incorrect. :(";
+        prizecode.ForeColor = System.Drawing.Color.Red;
+    }
+
 }
